@@ -1,0 +1,348 @@
+.home-services{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+	.home-services-left-block {
+	 	background-color: $color-blue;
+	    width: calc(50% - 15px);
+	    color: $color-white;
+	    position: relative;
+	    flex: 0 1 auto;
+	    .styled-read{
+	    	background: $color-d-blue;
+		    position: relative;
+		    padding: 10px;
+		    display: block;
+		    width: 45%;
+		    color: #fff;
+		    padding-left: 15px;
+		    float: right;
+		    right: -50px;
+		    bottom: -50px;
+		    i{
+		    	background: $color-grey;
+		    	color: $color-white;
+			    position: absolute;
+			    height: 100%;
+			    top: 0;
+			    right: 0;
+			    display: flex;
+			    padding: 13px;
+			    font-size: 21px
+		    }
+	    }
+	}
+	.home-services-right-block {
+	    background-color: $color-blue;
+	    width: calc(50% - 15px);
+	    display: flex;
+	    align-items: center;
+	    position: relative;
+	    flex: 0 1 auto;
+	}
+	.video-nav-block {
+		position: absolute;
+	    right: 0;
+	    margin: auto;
+	    background-color: #ffffffb8;
+	    padding: 0;
+	    z-index: 2;
+		ul{
+			list-style: none;
+			padding-top: 10px;
+		    padding-bottom: 10px;
+		    margin-bottom: 0;
+		}
+		li{
+			padding: 5px 0;
+		    text-align: right;
+		    display: flex;
+		    align-items: center;
+		    justify-content: flex-end;
+		    font-family: OpenSansBold;
+			a{
+			    display: flex;
+			    align-items: center;
+			    .nav-link {
+				    padding: 0;
+				    letter-spacing: 2px;
+				    font-size: 12px;
+				    color: #807f81;
+				    cursor: pointer;
+				}
+			}
+		}
+		li.active{
+			.nav-link {
+			    color: $color-blue;
+			}	
+			.nav-link-line {
+			    visibility: visible;
+			}
+		}
+		.nav-link-line {
+		    visibility: hidden;
+		    width: 52px;
+		    height: 2px;
+		    background-color: $color-blue;
+		    margin-left: 38px;
+		}
+	}
+	.home-services-video {
+	    display: block;
+	    width: 100%;
+	    max-width: 100%;
+	    height: auto;
+	    transform: scaleX(-1);
+	}
+	.home-services-video-block {
+	    display: block;
+	    position: relative;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: auto;
+	}
+	.video-btn-block {
+	    display: flex;
+	    align-items: center;
+	    position: absolute;
+	    z-index: 2;
+	    bottom: 25px;
+	    left: 43px;
+		.video-play-btn {
+		    width: 55px;
+		    height: 55px;
+		    border: 2px solid $color-white;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    border-radius: 50%;
+		    cursor: pointer;
+		    .play-icon {
+			    width: 18px;
+			    height: 22px;
+			    font-size: 22px;
+			    color: $color-white;
+			    margin-left: 5px;
+			    display: inherit;
+			}
+		}
+		.video-play-text {
+		    color: $color-white;
+		    font-weight: bold;
+		    font-size: 14px;
+		    margin-left: 29px;
+		    letter-spacing: 2px;
+		}
+	}
+}
+
+.home-certificate{
+	.slick-initialized .slick-slide{
+		outline: none;
+	}
+	.box-slide{
+	  background: $color-white;
+	  box-shadow: 0 2px 3px #02020275;
+	  visibility: visible;
+	  transition: 300ms all ease-in;
+	  border-bottom: 1px solid $color-l-grey;
+	}
+	.box-slide .img-wrapper{
+	  position: relative;
+	  height: 250px;
+	}
+	.box-slide .img-wrapper img{
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  object-position: top;
+	}
+
+	.box-slide .img-wrapper .caption{
+	  position: absolute;
+	  visibility: hidden;
+	  top: 35%;
+	  right: 40%;
+	}
+
+	.box-slide .img-wrapper .caption a{
+	  color: #fff;
+	  font-size: 3rem;
+	  outline: none;
+	}
+
+	.box-slide .img-wrapper:hover .caption{
+	  animation-name: fadeInUp;
+	  animation-duration: 1s;
+	  visibility: visible;
+	}
+	.box-slide .img-wrapper:before {
+	    content: '';
+	    display: block;
+	    width: 100%;
+	    height: 100%;
+	    background: #3333335e;
+	    position: absolute;
+	    top: 0;
+	}
+
+	.box-slide .text-wrapper{
+	  position: relative;
+	  padding: 15px;
+	  min-height: 200px;
+	}
+	.box-slide .text-wrapper .text{
+	  min-height: 106px;
+	}
+
+
+	.box-slide .category{
+	  position: absolute;
+	  bottom: 0;
+	  right: 0;
+	  color: black;
+	  font-size: 14px;
+	  font-weight: 600;
+	  text-transform: uppercase;
+	  width: 0px;
+	  height: 0px;
+	  border-top: 58px solid transparent;
+	  border-bottom: 0px solid transparent;
+	  border-right: 50px solid;
+	  border-right-color: $color-blue;
+	}
+
+	.box-slide .btn{
+	  width: 130px;
+	  padding: 2px;
+	  margin-top: 15px;
+	  font-size: 15px;
+	}
+}
+
+.home-client{
+	.slick-dots  {
+		li.slick-active{
+			button{
+			    background: $color-blue;
+			    border-radius: 100%;		
+			}
+			button:before{
+				content: '';
+			}
+		}
+		li{
+			button{
+			    border: 2px solid $color-blue;
+			    border-radius: 100%;		
+			}
+			button:before{
+				content: '';
+			}
+		}
+	}
+	.client-logo{
+	  width: 30%;
+	  cursor: pointer;
+	  outline: none;
+	}
+	.client-logo .item{
+	  width: fit-content;
+	  width: -moz-fit-content;
+	  margin: auto;
+	  height: fit-content;
+	  height: -moz-fit-content;
+	}
+	.client-logo img{
+	  width: auto;
+	  height: 135px;
+	  max-width: 100%;
+	  object-fit: contain;
+	  -webkit-filter: grayscale(100%);
+	  transition: .2s;
+	  margin: 20px 0;
+	  transition: 300ms all ease-in;
+	}
+	.client-logo .item:hover img{
+	  filter: inherit;
+	  animation: pulse 5s infinite;
+	}
+}
+
+/* contact-section */
+.contact-section{
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 100% auto;
+	position: relative;
+	&.contact-section:before {
+	    content: '';
+	    display: block;
+	    background: #00000061;
+	    width: 100%;
+	    height: 100%;
+	    position: absolute;
+	    top: 0;
+	}
+	.cols{
+		padding: 10px;
+		.box-cp{
+			position: relative;
+			background: #fea621ba;
+			h4{
+				padding: 30px 20px 10px;
+			}
+			.info, .map{
+				padding: 15px;
+				display: flex;
+			}
+			.info-section{
+				min-height: 200px;
+			}
+			.info{
+				padding-bottom: 0;
+				.icon{
+					flex: 0 0 10%;
+					font-size: 16px;
+				}
+				.text{
+					flex: 0 0 90%;
+					font-size: 14px;
+				    font-weight: 600;
+				}
+			}
+			.map{
+				border-top: 2px solid #9C6715;
+				margin-top: 15px;
+				padding: 15px;
+				.icon{
+					flex: 0 0 10%;
+					font-size: 16px;
+				}
+				.text{
+					flex: 0 0 90%;
+					font-size: 14px;
+				    font-weight: 600;
+				    a{
+				    	color: $color-black;
+				    	font-weight: 500;
+				    	text-decoration: underline;
+				    }
+				}
+				.map-icon{
+					top : 0;
+					right: 0;
+					img{
+						width: 50px;
+					    padding: 10px;
+					    margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+}

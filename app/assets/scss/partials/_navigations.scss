@@ -1,0 +1,100 @@
+header{
+	position: relative;
+	top: -1px;
+  	animation-duration: 300ms;
+  	animation-delay: 400ms;
+  	animation-name: fadeInUp;
+    transition : 300ms all ease-in-out;
+    .logo{
+    	background: none;
+    }
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: $color-blue;
+    z-index: 999;
+    box-shadow: 3px 3px 3px #00000059;
+    .logo{
+    	background: #e0e0e0;
+    	width: 230px;
+    	transition: 300ms all ease-in-out;
+    }
+    .navbar{
+    	margin-top: 22px;
+    	transition: 300ms all ease-in-out;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+		color: $color-white;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		color: $color-white !important;
+	}
+	.navbar-light .nav-item:after{
+	 	border-right: 1px $color-yellow;
+	}
+	.navbar-light .nav-item:hover:after{
+		background: $color-yellow;
+		border-right: 1px white;
+	}
+	.active:after {
+		background: $color-yellow !important;
+	}
+}
+
+header .logo{
+	width: 270px;
+}
+
+header .menu-wrapper{
+	position: relative;
+	z-index: 9;
+}
+
+header{
+	.navbar{
+		margin-top: 2em;
+		padding-bottom: 0;
+	}
+	.navbar.mobile{
+	  display: none;
+	}
+}
+
+header .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: $color-black;
+}
+header .navbar-light .navbar-nav{
+	font-weight: 500;
+}
+header .navbar-light .navbar-nav .nav-link{
+	color: $color-black !important;
+}
+header .navbar-light .nav-item:after{
+	display: block;
+	height: 2px;
+ 	border-right: 1px $color-blue;
+  	content: '';
+  	margin: 0 auto;
+	width: 20%;
+	transition: 100ms all ease-in;
+}
+
+header .navbar-light .nav-item {
+    margin-left: 2em;
+}
+
+header .navbar-light .nav-item:hover:after{
+	height: 2px;
+	display: block;
+	width: 50%;
+	background: $color-blue;
+	border-right: 1px white;
+	content: '';
+}
+header .active:after {
+	background: $color-blue !important;
+    width: 50% !important;
+}

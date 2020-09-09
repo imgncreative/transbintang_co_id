@@ -1,0 +1,35 @@
+{
+  "name": "transbintang",
+  "version": "1.0.0",
+  "description": "Front-end of Transbintang",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romyhprasetyo/transbintang_com.git"
+  },
+  "keywords": [
+    "transbintang_co_id"
+  ],
+  "author": "IMAGINE Creative Studio",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/romyhprasetyo/transbintang_com/issues"
+  },
+  "homepage": "https://github.com/romyhprasetyo/transbintang_com#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babelify": "^10.0.0",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.14.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}

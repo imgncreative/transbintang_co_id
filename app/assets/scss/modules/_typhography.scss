@@ -1,0 +1,52 @@
+
+
+//lined-title
+
+.lined-title{
+  border-left: 4px solid $color-blue;
+  display: table;
+  padding: 0 15px;
+  margin-bottom: 2rem;  
+}
+
+//text-config
+
+.text{
+	font-size: 14px;
+	//base 
+	a{
+		text-decoration: none;
+	}
+	//weight
+	.semi-bold{
+		font-weight: 400;
+	}
+	.bold{
+		font-weight: 500;
+	}
+	.xbold{
+		font-weight: 800;
+	}
+	
+	//color
+	.white{
+		color: $color-white;
+	}
+	.black{
+		color: $color-black;
+	}
+	.yellow{
+		color: $color-yellow;
+	}
+	.blue{
+		color: $color-blue;
+	}
+	.grey{
+		color: $color-grey;
+	}
+
+	//line
+	.line-2{
+		line-height: 2;
+	}
+}

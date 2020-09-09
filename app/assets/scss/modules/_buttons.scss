@@ -1,0 +1,63 @@
+.wa-icon{
+  margin: 0 0 0 40px;
+  width: 45px;
+  height: 45px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  background: #25d366;
+  box-shadow: 0 10px 15px -10px #25d366;
+  i{
+	  margin: 0 auto;
+	  font-size: 27px;
+	  color: $color-white;
+	}
+}
+.wa-link{
+  text-decoration: none !important;
+  display: table;
+  position: fixed;
+  bottom: 15%;
+  z-index: 99;
+  right: 5%;  
+}
+
+
+.button{
+	&.primary-button-o{
+		border: 2px solid $color-yellow;
+		background: none;
+		color: $color-white;
+		border-radius: 15px;
+		&.text-yellow{
+			color: $color-yellow;
+		}
+		&.text-blue{
+			color: $color-blue;
+		}
+	}
+	&.info-button{
+	    background: $color-blue;
+	    color: $color-white;
+	    border: 0;
+	}
+	&.half-radius{
+		border-radius: 37px;
+	}
+	&.bold{
+		font-weight: 500;
+	}
+	&.xbold{
+		font-weight: 800;
+	}
+
+	//size
+	&.large{
+		padding: 10px 3em;
+	    font-size: 19px;
+	}
+	&.medium{
+		padding: 7px 35px;
+		font-size: 16px;
+	}
+}

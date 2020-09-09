@@ -1,0 +1,50 @@
+footer{
+	.logo{
+		max-width: 290px;
+	}
+	.newsletter{
+		padding: 15px 7px;
+		margin: 25px 0;
+	    border: 1px solid rgba(15,45,82,.3);
+	    border-radius: 5px;
+		align-items: baseline;
+	    display: flex;
+		form{
+			width: 100%;
+		    align-items: center;
+		    display: flex;
+		    input {
+			    border-bottom: none;
+			    color: #666769;
+			    padding: 14px 0 10px 10px;
+			}
+		    input[type=text] {
+			    padding-right: 10px;
+			}
+			input[type=email] {
+			    border-left: 1px solid #ddd;
+			    border-radius: 0;
+			}
+			button{
+				margin-right: 15px;
+			}
+			.field{
+			    margin: 0 auto;
+			    width: 50%;
+			}
+		}
+	}
+	.copyright{
+		.social-media{
+			list-style: none;
+			li{
+				display: inline-block;
+				padding-left: 15px;
+				a{
+					font-size: 20px;
+					color: $color-blue;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+// Helpers
+@import
+    "helpers/_functions.scss",
+    "helpers/_mixins.scss";
+
+// Modules
+@import
+    "modules/_variable.scss",
+    "modules/_typhography.scss",
+    "modules/_buttons.scss",
+    "modules/_forms.scss",
+    "modules/_animations.scss";
+
+// Partials
+@import
+    "partials/_base.scss",
+    "partials/_navigations.scss",
+    "partials/_footer.scss",
+    "partials/_modal.scss";
+
+@import
+    "pages/_index.scss";
+    
+@import
+    "partials/_responsive.scss";

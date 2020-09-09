@@ -1,0 +1,109 @@
+html {
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+a, button{
+  font-family: 'Poppins', sans-serif;
+  outline: none !important;
+}
+
+.container-fluid{
+	width: 95%;
+}
+
+/* page layout */
+.content-padding{
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+.wrapper-50{
+	max-width: 65%;
+    margin: 0 auto;
+}
+.box-flex{
+	display: flex;
+	flex-wrap: wrap;
+	&.inline{
+		display: inline-flex;
+		flex-wrap : nowrap;
+	}
+	&.half{
+		.cols{
+			flex: 0 0 50%;
+			margin:  0 auto;
+		}
+	}
+}
+
+/* banner */
+.banner{
+	&.home{
+		position: relative;
+		.carousel-inner{
+			height: 82vh;
+		}
+		.carousel-item{
+			height: 100%;
+		    img{
+		    	height: 100%;
+			    object-fit: cover;
+		    }
+		}
+		.carousel-item::after {
+		    content: '';
+		    display: block;
+		    width: 100%;
+		    background: #071f33ab;
+		    position: absolute;
+		    top: 0;
+		    bottom: 0;
+		}
+		a.carousel-control-prev {
+		    display: none;
+		}
+		.carousel-caption{
+			left: 8%;
+			right: inherit;
+			top: 7em;
+			bottom: inherit;
+			text-align: left;
+			&.carousel-caption::before{
+				content: '';
+			    display: block;
+			    background: $color-yellow;
+			    height: 1px;
+			    width: 50%;
+			    margin-bottom: 1rem;
+			}
+			button{
+				margin-top: 2rem;
+			}
+		}
+		.social-media{
+			position: absolute;
+		    bottom: 1em;
+		    right: 4em;
+		    a{
+				color: $color-white;
+				padding: 0.5rem 9px;
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
