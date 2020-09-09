@@ -98,3 +98,35 @@ header .active:after {
 	background: $color-blue !important;
     width: 50% !important;
 }
+
+/* header-blue */
+.blue-navs{
+	.nav-holder-card{
+		position: relative;
+		.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+			color: $color-white;
+		}
+		.navbar-light .navbar-nav .nav-link{
+			color: $color-white !important;
+		}
+		.navbar-light .nav-item:after{
+		 	border-right: 1px $color-blue;
+		}
+
+		.navbar-light .nav-item:hover:after{
+			background: $color-yellow;
+		}
+		.active:after {
+			background: $color-yellow !important;
+		}
+	}
+	.nav-holder-card:before {
+	    content: '';
+	    background: $color-blue;
+	    display: block;
+	    width: 100%;
+	    position: absolute;
+	    height: 100%;
+	    right: -20%;
+	}
+}

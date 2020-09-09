@@ -7,6 +7,9 @@
   display: table;
   padding: 0 15px;
   margin-bottom: 2rem;  
+  &.yellow{
+  	border-left: 4px solid $color-yellow;
+  }
 }
 
 //text-config
@@ -48,5 +51,8 @@
 	//line
 	.line-2{
 		line-height: 2;
+	}
+	.medium{
+		font-size: 17px;
 	}
 }

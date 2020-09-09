@@ -134,10 +134,22 @@ $('.slick-indicator').slick({
   ]
 });
 
+$('.single-slick').slick({
+  dots: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 2000
+});
+
+//magnific
 
 $('.pop-image').magnificPopup({
   type:'image',
 });
+
+//wow
 
 var wow = new WOW({
     offset:100,   
