@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title><?php echo 'SERVICE'; ?></title>
+        <title>Transbintang - Service</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="assets/images/favicon.ico">
@@ -27,13 +27,13 @@
     		<div class="container-fluid">
     			<div class="row menu-wrapper desktop">
     				<div class="col-md-3">
-    					<a href="index.php">
+    					<a href="index.html">
     						<img src="assets/images/logo.png" class="d-none d-sm-block logo">
     					</a>
     				</div>
     				<div class="col-md-9 nav-holder-card">
 						<nav class="navbar navbar-expand-lg navbar-light">
-						  <a class="navbar-brand d-block d-sm-none logo" href="index.php">
+						  <a class="navbar-brand d-block d-sm-none logo" href="index.html">
 						  	<img src="assets/images/logo.png">
 						  </a>
 						  <button class="navbar-toggler d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,19 +43,19 @@
 						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 						    <ul class="navbar-nav ml-auto text-center">
 						      <li class="nav-item">
-						        <a class="nav-link" href="index.php">HOME</a>
+						        <a class="nav-link" href="index.html">HOME</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="about.php">ABOUT US</a>
+						        <a class="nav-link" href="about.html">ABOUT US</a>
 						      </li>
 						      <li class="nav-item ">
-						        <a class="nav-link" href="service.php">OUR SERVICES</a>
+						        <a class="nav-link" href="service.html">OUR SERVICES</a>
 						      </li>
 						      <li class="nav-item">
-					    	    <a class="nav-link" href="experience.php">EXPERIENCE</a>
+					    	    <a class="nav-link" href="experience.html">EXPERIENCE</a>
 					    	  </li>
 					    	  <li class="nav-item active">
-					    	    <a class="nav-link" href="news.php">NEWS</a>
+					    	    <a class="nav-link" href="news.html">NEWS</a>
 					    	  </li>
 						    </ul>
 						  </div>
@@ -78,19 +78,19 @@
 				    	<div class="col-md-6">
 					    	<ul class="navbar-nav mr-auto">
 					    	  <li class="nav-item">
-						        <a class="nav-link" href="index.php">HOME</a>
+						        <a class="nav-link" href="index.html">HOME</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="about.php">ABOUT US</a>
+						        <a class="nav-link" href="about.html">ABOUT US</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="service.php">OUR SERVICES</a>
+						        <a class="nav-link" href="service.html">OUR SERVICES</a>
 						      </li>
 						      <li class="nav-item">
-					    	    <a class="nav-link" href="experience.php">EXPERIENCE</a>
+					    	    <a class="nav-link" href="experience.html">EXPERIENCE</a>
 					    	  </li>
 					    	  <li class="nav-item active">
-					    	    <a class="nav-link" href="news.php">NEWS</a>
+					    	    <a class="nav-link" href="news.html">NEWS</a>
 					    	  </li>
 					    	</ul>
 				    	</div>
@@ -456,7 +456,7 @@
     		<div class="container-fluid">
     			<div class="row">
     				<div class="col-md-4">
-	    				<a href="index.php">
+	    				<a href="index.html">
     						<img src="assets/images/logo.png" class="d-none d-sm-block logo wow fadeInLeft">
     					</a>
 	    			</div>
