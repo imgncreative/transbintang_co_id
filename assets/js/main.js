@@ -1,3 +1,4 @@
+
 // sticky menu
 $(document).ready(function(){
   var num = 200; 
@@ -63,8 +64,18 @@ $(document).ready(function(){
   });
   //video-play/pause-action end
 
+/* collapse accordion */
+$(document).ready(function(){
+  $('.collapse').on('show.bs.collapse', function () {
+    $(this).siblings('.panel-heading').addClass('active');
+  });
 
-  /* plugin */
+  $('.collapse').on('hide.bs.collapse', function () {
+    $(this).siblings('.panel-heading').removeClass('active');
+  });
+});
+
+/* plugin */
 
 $('.slick').slick({
   infinite: false,

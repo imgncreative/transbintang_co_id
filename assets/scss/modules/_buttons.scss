@@ -41,6 +41,9 @@
 	    color: $color-white;
 	    border: 0;
 	}
+	&.small-radius{
+		border-radius: 10px;
+	}
 	&.half-radius{
 		border-radius: 37px;
 	}
@@ -51,13 +54,121 @@
 		font-weight: 800;
 	}
 
+	//container
+	&.full-width{
+		width: 100%;
+	}
+	&.half-width{
+		width: 50%;
+		margin: 0 auto;
+	}
+
 	//size
 	&.large{
 		padding: 10px 3em;
 	    font-size: 19px;
 	}
+	&.semi-large{
+		padding: 10px 15px;
+		font-size: 18px;
+	}
 	&.medium{
 		padding: 7px 35px;
 		font-size: 16px;
+	}
+}
+
+.accordion{
+	border: 0;
+	.card{
+		border: 0;
+		padding: 0;
+		.btn.focus, .btn:focus{
+			box-shadow: inherit !important;
+		}
+		.panel-heading.active .accor-icon {
+			-webkit-transform: rotate(180deg);
+			-moz-transform: rotate(180deg);
+			transform: rotate(180deg);
+		} 
+		.card-header{
+			background-color: transparent;
+			border: 0;
+			padding-left: 0;
+			padding-right: 15px;
+			border-bottom: 1px solid #ddd;
+			position: relative;
+			.accor-icon{
+				position: absolute;
+				right: 20px;
+			    bottom: 15px;
+			    color: $color-blue;
+			    transition: 300ms all ease-in-out;
+			}
+			button{
+				color: $color-black;
+			    outline: none !important;
+			    padding: 0;
+			    text-decoration: none;
+			    font-size: 25px;
+			    font-weight: 500;
+			}
+		}
+		.card-body{
+			padding-left: 0;
+			padding-right: 15px;
+			img{
+				max-width: 100%;
+				margin-bottom: 2em;
+			}
+		}
+	}
+}
+
+#tabs{
+  	background: #007b5e;
+    color: #eee;
+    .nav-link:hover{
+    	border: 0;
+    }
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: $color-d-blue;
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 3px solid $color-yellow!important;
+  font-size: 17px;
+  font-weight: 400;
+}
+.nav-tabs .nav-link{
+  color: $color-grey;
+  font-size: 17px;
+}
+
+
+/* pagination */
+.pagination{
+	margin-top: 3em;
+	ul{
+		list-style: none;
+		text-align: center;
+		margin: 0 auto;
+		li{
+			display: inline-block;
+			a{
+				background: $color-blue;
+				color: $color-white;
+				padding: 5px 15px;
+				text-decoration: none;
+			}			
+		}
+		li.active{
+			a{
+				background: $color-white;
+				color: $color-blue;
+				font-weight: 600;
+			}
+		}
 	}
 }

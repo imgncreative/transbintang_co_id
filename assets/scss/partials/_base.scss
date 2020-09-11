@@ -20,6 +20,12 @@ a, button{
 	width: 95%;
 }
 
+/* bg block */
+
+.bg-blue{
+	background: $color-blue;
+}
+
 /* page layout */
 .content-padding{
 	padding-top: 3em;
@@ -46,6 +52,35 @@ a, button{
 
 /* banner */
 .banner{
+	&.detail{
+		.tag{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			.top{
+				background: $color-d-blue;
+				padding: 5px 15px;
+				color: $color-white;
+			}
+			.bottom{
+				background: $color-yellow;
+				padding: 5px 15px;
+				font-style: italic;
+			}
+		}
+		.action{
+			position: absolute;
+			top: 1rem;
+			right: 2rem;
+			a{
+				color: #ffffffad;
+				font-size: 2rem;
+			}
+			a:hover{
+				color: $color-yellow;	
+			}
+		}
+	}
 	&.half-banner{
 		position: relative;
    		z-index: 22;
@@ -91,9 +126,9 @@ a, button{
 					    left: 15%;
 					    top: 15%;
 					    .tagline{
-					    	width: 50%;
+					    	width: 75%;
 						    line-height: 2;
-						    font-size: 30px;
+						    font-size: 25px;
 					    }
 			    	}
 			    	.caption::before{
@@ -136,6 +171,23 @@ a, button{
 				    width: 100%;
 				    height: 100%;
 				    flex: 0 1 auto;
+				    .newsletter-widget{
+				    	width: 100%;
+						padding: 2rem 1.5rem;
+						form{
+							margin-top: 15px;
+						}
+						.field{
+							margin-bottom: 15px;
+							.input-field{
+								padding: 10px 15px;
+							    font-size: 18px;
+							    width: 100%;
+							    border-radius: 10px;
+							    border: 1px solid $color-blue;
+							}
+						}
+				    }
 				    .post-links-section{
 				    	width: 100%;
 					    min-height: 100%;

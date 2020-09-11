@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title><?php echo 'ABOUT'; ?></title>
+        <title><?php echo 'EXPERIENCE'; ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="assets/images/favicon.ico">
@@ -45,17 +45,17 @@
 						      <li class="nav-item">
 						        <a class="nav-link" href="index.php">HOME</a>
 						      </li>
+						      <li class="nav-item">
+						        <a class="nav-link" href="about.php">ABOUT US</a>
+						      </li>
+						      <li class="nav-item">
+						        <a class="nav-link" href="service.php">OUR SERVICES</a>
+						      </li>
 						      <li class="nav-item active">
-						        <a class="nav-link" href="#">ABOUT US</a>
-						      </li>
-						      <li class="nav-item">
-						        <a class="nav-link" href="#">OUR SERVICES</a>
-						      </li>
-						      <li class="nav-item">
-					    	    <a class="nav-link" href="#">EXPERIENCE</a>
+					    	    <a class="nav-link" href="experience.php">EXPERIENCE</a>
 					    	  </li>
 					    	  <li class="nav-item">
-					    	    <a class="nav-link" href="#">NEWS</a>
+					    	    <a class="nav-link" href="news.php">NEWS</a>
 					    	  </li>
 						    </ul>
 						  </div>
@@ -80,17 +80,17 @@
 					    	  <li class="nav-item">
 						        <a class="nav-link" href="index.php">HOME</a>
 						      </li>
-						      <li class="nav-item active">
+						      <li class="nav-item">
 						        <a class="nav-link" href="about.php">ABOUT US</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="#">OUR SERVICES</a>
+						        <a class="nav-link" href="service.php">OUR SERVICES</a>
 						      </li>
-						      <li class="nav-item">
-					    	    <a class="nav-link" href="#">EXPERIENCE</a>
+						      <li class="nav-item active">
+					    	    <a class="nav-link" href="experience.php">EXPERIENCE</a>
 					    	  </li>
 					    	  <li class="nav-item">
-					    	    <a class="nav-link" href="#">NEWS</a>
+					    	    <a class="nav-link" href="news.php">NEWS</a>
 					    	  </li>
 					    	</ul>
 				    	</div>
@@ -149,241 +149,267 @@
 						</ul>
     				</div>
     				<div class="image-container relative">
-    					<img src="assets/images/banner/banner-2.png" class="img-fluid">
+    					<img src="assets/images/banner/banner-4.png" class="img-fluid">
     					<div class="caption text absolute wow fadeInLeft">
     						<h1 class="yellow">
-    							About Us
+    							Experiences
     						</h1>
     						<div class="tagline white">
-    							To Be The Best Indonesian
-								Logistic Service Provider
-								with Professional and
-								Trusted Services.</div>
+    							TBP will use management of logistics, on-time,
+								accurate deliveries from destination to destination 
+								in Indonesia area, and partnerships with all parties to
+								achieve its goals.
+							</div>
     					</div>
     				</div>
     			</div>
     			<div class="right-block wow fadeInRight">
     				<div class="blocker"></div>
-    				<div class="content-navigate">
-    					<div class="post-links-section">
-                            <ul class="post-links-block">
-                                <li class="active"><a href="#">Introduction</a>
-                                    <div class="link-line"></div>
-                                </li>
-                            </ul>
-                            <ul class="post-links-block">
-                                <li><a href="#">Chairman's Note</a>
-                                    <div class="link-line"></div>
-                                </li>
-                            </ul>
-                            <ul class="post-links-block">
-                                <li><a href="#">Vision & Mission</a>
-                                    <div class="link-line"></div>
-                                </li>
-                            </ul>
-                            <ul class="post-links-block">
-                                <li><a href="#">The Team</a>
-                                    <div class="link-line"></div>
-                                </li>
-                            </ul>
-                        </div>
-    				</div>
     			</div>
     		</div>
     	</section>
-    	
     	<!-- end banner section -->
 
-    	<section class="content-padding" id="introduction">
+    	<section class="experience-section content-padding">
     		<div class="container-fluid">
     			<h3 class="lined-title wow bounceInUp">
-					Introduction
+					Our Experience
 				</h3>
-    			<div class="row text text-justify">
-    				<div class="col-md-6 wow fadeInLeft">
-    					<div class="line-2 medium">
-	    					<p>
-	    						In 2014, a partnership was formed in Jakarta to provide logistic services in Indonesia. Haulage container trucks in Tanjung Priok Port became the first service. The hard efforts of the founders gained momentum to expand the business. Slow but sure, company has many opportunities to provide more comprehensive logistics services to satisfy the complex ever increasing needs of our development country, Indonesia. The company was poised to become logistics company as freight forwarder and
-								custom services.
-	    					</p>
-	    					<p>
-	    						Company now offers a comprehensive logistics inland and sea freight door-to-door service for all industries who have need of logistics services.
-	    					</p>
+    		</div>
+    		<div class="flex-content">
+    			<div class="exp-item">
+    				<div class="image-container">
+    					<img src="assets/images/experience/1.png">
+    					<div class="caption">
+    						<div class="cap-overlay">
+    							<div class="title">
+    								INLAND TRANSPORTATION
+	    							Various Projects
+    							</div>
+	    						<div class="circle-link">
+	    							<a href="#">MORE</a>
+	    						</div>
+    						</div>
     					</div>
     				</div>
-    				<div class="col-md-6 wow fadeInRight">
-    					<div class="line-2 medium">
-    						<p>
-    							Its advanced information management and freight tracking capabilities are enhanced that ensure all shipments are delivered safely and on time. Our comprehensive services include heavy and project transportation, storage and distribution, container yard and so on, as well as freight forwarding and Customs clearance.		
-    						</p>
-    						<p>
-    							Our company has diversified and grown and introduced new technologies and innovations and techniques, but the success over the years also reflects their total commitment to the client. This has been achieved by a highly trained, dedicated team.
-    						</p>
+    			</div>
+    			<div class="exp-item">
+    				<div class="image-container">
+    					<img src="assets/images/experience/2.png">
+    					<div class="caption">
+    						<div class="cap-overlay">
+    							<div class="title">
+    								Inland TRANSPORTATION & IMPORT
+									 or EXPORT Handling of 
+									Various Activities
+    							</div>
+	    						<div class="circle-link">
+	    							<a href="#">MORE</a>
+	    						</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="exp-item">
+    				<div class="image-container">
+    					<img src="assets/images/experience/3.png">
+    					<div class="caption">
+    						<div class="cap-overlay">
+    							<div class="title">
+    								Inland TRANSPORTATION & Supply
+									Various Projects
+    							</div>
+	    						<div class="circle-link">
+	    							<a href="#">MORE</a>
+	    						</div>
+    						</div>
     					</div>
     				</div>
     			</div>
     		</div>
     	</section>
 
-    	<section class="about-profile" id="about">
-    		<div class="about-block">
-    			<div class="about-left-block wow fadeInLeft">
-    				<h3 class="lined-title yellow wow bounceInUp">
-						CHAIRMAN'S NOTE
-					</h3>
-					<br/>
-    				<div class="profile-image wow bounceInUp">
-						<img src="assets/images/avatar/1.png">
-					</div>
-    			</div>
-    			<div class="about-right-block text wow fadeInRight">
-    				<div class="line-2 white">
-	    				<div class="name-block text">
-	    					<h3 class="yellow">
-	    						<span style="font-size: 18px;">Mr. LEDI HARI</span> <br/>
-	    						<span>SETIAWAN</span>
-	    					</h3>
-	    					<span class="bold">Chairman</span>
+    	<section class="contact-section content-padding" style="background-image: url('assets/images/cargo.png')">
+    		<div class="container-fluid">
+    			<div class="wrapper-50">
+    				<div class="text relative text-center wow bounceInUp">
+    					<h4 class="white">GET IN TOUCH</h4>
+    				</div><br/>
+	    			<div class="box-flex half wow bounceInDown">
+	    				<div class="cols">
+	    					<div class="box-cp">
+	    						<div class="text">
+			    					<h4 class="xbold">MANAGEMENT OFFICE</h4>    							
+	    						</div>
+	    						<div class="info-section">
+			    					<div class="info">
+			    						<div class="icon">
+			    							<i class="fas fa-map-marker-alt"></i>
+			    						</div>
+			    						<div class="text">
+			    							<p>
+			    								Grand Palace Office Building B-19 <br/>
+												Jl. Benyamin Sueb Kav. A5, Central Jakarta<br/>
+												JAKARTA – INDONESIA 10630
+			    							</p>
+			    						</div>
+			    					</div>
+			    					<div class="info">
+			    						<div class="icon">
+			    							<i class="fas fa-phone"></i>
+			    						</div>
+			    						<div class="text">
+			    							<p>+62 21 2605 1111</p>
+			    						</div>
+			    					</div>
+	    						</div>
+		    					<div class="map relative">
+		    						<div class="icon">
+		    							<i class="far fa-envelope"></i>
+		    						</div>
+		    						<div class="text">
+		    							<a href="#">commercial@TransBintang.co.id</a>
+		    						</div>
+		    						<div class="map-icon absolute">
+		    							<a href="#">
+		    								<img src="assets/images/map.png">
+		    							</a>
+		    						</div>
+		    					</div>
+	    					</div>
 	    				</div>
-	    				<br/>
-	    				<p>
-	    					Ledi Hari Setiawan is a professional of logistic services and one 
-							of certified Indonesia Port Management Operator in 2016, 
-							Leads company growth and has hospitality team for valuable
-							customers. 
-						</p>
-						<p>
-							He develops collaboration and communication of 
-							the company across various business departments to ensure 
-							that projects are run most effectively and efficiently. 
-						</p>
-    					<p>
-    						Build a teamwork as an essential skill, because the ability to 
-							work as a team is fundamental to the success of any 
-							area of business.
-    					</p>
-    				</div>
+	    				<div class="cols">
+	    					<div class="box-cp">
+	    						<div class="text">
+			    					<h4 class="xbold">BANDUNG OFFICE</h4>    							
+	    						</div>
+		    					<div class="info-section">
+		    						<div class="info">
+			    						<div class="icon">
+			    							<i class="fas fa-map-marker-alt"></i>
+			    						</div>
+			    						<div class="text">
+			    							<p>
+			    								Paskal Hyper Square A-50 <br/>
+												Jl. Pasir Kalik No. 25-27 <br/>
+												BANDUNG – INDONESIA 40161
+			    							</p>
+			    						</div>
+			    					</div>
+			    					<div class="info">
+			    						<div class="icon">
+			    							<i class="fas fa-phone"></i>
+			    						</div>
+			    						<div class="text">
+			    							<p>+62 22 86060762</p>
+			    						</div>
+			    					</div>
+		    					</div>
+		    					<div class="map relative">
+		    						<div class="icon">
+		    							<i class="fas fa-envelope"></i>
+		    						</div>
+		    						<div class="text">
+		    							<a href="#">commercial@TransBintang.co.id</a>
+		    						</div>
+		    						<div class="map-icon absolute">
+		    							<a href="#">
+		    								<img src="assets/images/map.png">
+		    							</a>
+		    						</div>
+		    					</div>
+	    					</div>
+	    				</div>
+	    				<div class="cols">
+	    					<div class="box-cp">
+	    						<div class="text">
+			    					<h4 class="xbold">BENGKULU OFFICE</h4>    							
+	    						</div>
+		    					<div class="info-section">
+		    						<div class="info">
+			    						<div class="icon">
+			    							<i class="fas fa-map-marker-alt"></i>
+			    						</div>
+			    						<div class="text">
+			    							<p>
+			    								Lingkar Barat Site Office <br/>
+												Jl. Mahakam No. 1, Kota Bengkulu <br/>
+												BENGKULU – INDONESIA
+			    							</p>
+			    						</div>
+			    					</div>
+			    					<div class="info">
+			    						<div class="icon">
+			    							<i class="fas fa-phone"></i>
+			    						</div>
+			    						<div class="text">
+			    							<p>+62 21 2605 1111</p>
+			    						</div>
+			    					</div>
+		    					</div>
+		    					<div class="map relative">
+		    						<div class="icon">
+		    							<i class="fas fa-envelope"></i>
+		    						</div>
+		    						<div class="text">
+		    							<a href="#">commercial@TransBintang.co.id</a>
+		    						</div>
+		    						<div class="map-icon absolute">
+		    							<a href="#">
+		    								<img src="assets/images/map.png">
+		    							</a>
+		    						</div>
+		    					</div>
+	    					</div>
+	    				</div>
+	    				<div class="cols">
+	    					<div class="box-cp">
+	    						<div class="text">
+			    					<h4 class="xbold">JAKARTA SITE OFFICE</h4>    							
+	    						</div>
+		    					<div class="info-section">
+		    						<div class="info">
+			    						<div class="icon">
+			    							<i class="fas fa-map-marker-alt"></i>
+			    						</div>
+			    						<div class="text">
+			    							<p>
+			    								Jl. Kebon Bawang III/10, Kebon Bawang <br/>
+												Tanjung Priok, North Jakarta <br/>
+												JAKARTA – INDONESIA 14320
+			    							</p>
+			    						</div>
+			    					</div>
+			    					<div class="info">
+			    						<div class="icon">
+			    							<i class="fas fa-phone"></i>
+			    						</div>
+			    						<div class="text">
+			    							<p>+62 21 22498463</p>
+			    						</div>
+			    					</div>
+		    					</div>
+		    					<div class="map relative">
+		    						<div class="icon">
+		    							<i class="fas fa-envelope"></i>
+		    						</div>
+		    						<div class="text">
+		    							<a href="#">commercial@TransBintang.co.id</a>
+		    						</div>
+		    						<div class="map-icon absolute">
+		    							<a href="#">
+		    								<img src="assets/images/map.png">
+		    							</a>
+		    						</div>
+		    					</div>
+	    					</div>
+	    				</div>
+	    			</div>
     			</div>
     		</div>
     	</section>
 
-    	<section class="vm-section" id="vision">
-			<div class="vm-block">
-				<div class="vm-left-block wow bounceInDown">
-					<div class="block-text text">
-						<h3 class="black">
-							OUR <br/>
-							VISION <br/>
-							& MISSION 
-						</h3>
-						<img src="assets/images/corner-bottom.png" alt="" class="corner-top">
-					</div>
-				</div>
-				<div class="vm-right-block wow bounceInUp">
-					<div class="image-container">
-						<div class="single-slick">
-							<div>
-								<img src="assets/images/vision.png">
-								<div class="caption text absolute">
-									<div class="line-2">
-										<h1 class="yellow">
-											VISION
-										</h1>
-										<h3 class="white">
-											To Be The Best Indonesian 
-											Logistic Service Provider 
-											with Professional and Trusted Services.
-										</h3>
-									</div>
-								</div>
-							</div>
-							<div>
-								<img src="assets/images/vision.png">
-								<div class="caption text absolute">
-									<div class="line-2">
-										<h1 class="yellow">
-											VISION
-										</h1>
-										<h3 class="white">
-											To Be The Best Indonesian 
-											Logistic Service Provider 
-											with Professional and Trusted Services.
-										</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<img src="assets/images/corner-bottom.png" alt="" class="corner-bottom">
-				</div>
-			</div>    		
-    	</section>
-    	<br/>
-    	<section class="content-padding">
-    		<div class="container-fluid">
-    			<h3 class="lined-title wow bounceInUp">
-					Group Members
-				</h3>
-    		</div>
-    		<div class="container">
-    			<div class="listing-group-profile wow fadeInDown">
-	    			<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/2.png">
-						<div class="name right">
-							NURCAHYO Adi Kusomo
-						</div>
-					</div>
-					<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/1.png">
-						<div class="name right">
-							LEDI Hari Setiawan
-						</div>
-					</div>
-					<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/3.png">
-						<div class="name right">
-							INDAH Permatasari
-						</div>
-					</div>
-					<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/4.png">
-						<div class="name right">
-							Ukhfi HAKIM
-						</div>
-					</div>
-					<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/8.png">
-						<div class="name right">
-							ANDRI Mulyani
-						</div>
-					</div>
-					<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/7.png">
-						<div class="name right">
-							ANA Mufidah
-						</div>
-					</div>
-					<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/6.png">
-						<div class="name right">
-							Ahmad Syahrul
-						</div>
-					</div>
-					<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/8.png">
-						<div class="name right">
-							RUSLAN
-						</div>
-					</div>
-					<div class="tiny-box profile-image">
-						<img src="assets/images/avatar/9.png">
-						<div class="name right">
-							SUMARNO
-						</div>
-					</div>
-	    		</div>
-    		</div>
-    	</section>
+    	
 
     	<footer class="content-padding">
     		<div class="container-fluid">

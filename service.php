@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title><?php echo 'HOME'; ?></title>
+        <title><?php echo 'SERVICE'; ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/png" href="assets/images/favicon.ico">
@@ -23,7 +23,7 @@
 
     </head>
     <body>
-    	<header>
+    	<header class="blue-navs">
     		<div class="container-fluid">
     			<div class="row menu-wrapper desktop">
     				<div class="col-md-3">
@@ -31,7 +31,7 @@
     						<img src="assets/images/logo.png" class="d-none d-sm-block logo">
     					</a>
     				</div>
-    				<div class="col-md-9">
+    				<div class="col-md-9 nav-holder-card">
 						<nav class="navbar navbar-expand-lg navbar-light">
 						  <a class="navbar-brand d-block d-sm-none logo" href="index.php">
 						  	<img src="assets/images/logo.png">
@@ -42,20 +42,20 @@
 
 						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 						    <ul class="navbar-nav ml-auto text-center">
-						      <li class="nav-item active">
+						      <li class="nav-item">
 						        <a class="nav-link" href="index.php">HOME</a>
 						      </li>
 						      <li class="nav-item">
 						        <a class="nav-link" href="about.php">ABOUT US</a>
 						      </li>
-						      <li class="nav-item">
-						        <a class="nav-link" href="#">OUR SERVICES</a>
+						      <li class="nav-item active">
+						        <a class="nav-link" href="service.php">OUR SERVICES</a>
 						      </li>
 						      <li class="nav-item">
-					    	    <a class="nav-link" href="#">EXPERIENCE</a>
+					    	    <a class="nav-link" href="experience.php">EXPERIENCE</a>
 					    	  </li>
 					    	  <li class="nav-item">
-					    	    <a class="nav-link" href="#">NEWS</a>
+					    	    <a class="nav-link" href="news.php">NEWS</a>
 					    	  </li>
 						    </ul>
 						  </div>
@@ -77,20 +77,20 @@
 				    <div class="row no-gutter">
 				    	<div class="col-md-6">
 					    	<ul class="navbar-nav mr-auto">
-					    	  <li class="nav-item active">
+					    	  <li class="nav-item">
 						        <a class="nav-link" href="index.php">HOME</a>
 						      </li>
 						      <li class="nav-item">
 						        <a class="nav-link" href="about.php">ABOUT US</a>
 						      </li>
-						      <li class="nav-item">
-						        <a class="nav-link" href="#">OUR SERVICES</a>
+						      <li class="nav-item active">
+						        <a class="nav-link" href="service.php">OUR SERVICES</a>
 						      </li>
 						      <li class="nav-item">
-					    	    <a class="nav-link" href="#">EXPERIENCE</a>
+					    	    <a class="nav-link" href="experience.php">EXPERIENCE</a>
 					    	  </li>
 					    	  <li class="nav-item">
-					    	    <a class="nav-link" href="#">NEWS</a>
+					    	    <a class="nav-link" href="news.php">NEWS</a>
 					    	  </li>
 					    	</ul>
 				    	</div>
@@ -136,272 +136,172 @@
     		</div>
     	</header>
 
-    	<section class="banner home">
-    		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100 h-100" src="assets/images/banner/banner-1.png" alt="transbintang.co.id">
-			      <div class="carousel-caption wow fadeInLeft text d-none d-md-block">
-			        <h2 class="bold yellow">PT TRANS BINTANG PRATAMA</h2>
-			        <h3 class="xbold">Logistic Service Providers</h3>
-			        <button type="button" class="button primary-button-o large bold half-radius">Learn More</button>
-			      </div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100 h-100" src="https://www.kennywiston.com/system/uploads/2018/03/kapal-cargo.jpg" alt="transbintang.co.id">
-			      <div class="carousel-caption wow fadeInLeft text d-none d-md-block">
-			        <h2 class="bold yellow">PT TRANS BINTANG PRATAMA</h2>
-			        <h3 class="xbold">Hospitality for SOLUTION</h3>
-			        <button type="button" class="button primary-button-o large bold half-radius">Learn More</button>
-			      </div>
-			    </div>
-			    
-			  </div>
-			  <a class="carousel-control-next wow fadeInRight" href="#carouselExampleControls" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
-			</div>
-			<div class="social-media">
-				<ul class="nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-instagram"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
-					</li>
-				</ul>
-			</div>
-    	</section>
-
-    	<section class="home-about content-padding">
-    		<div class="container-fluid">
-    			<h3 class="lined-title wow bounceInUp">
-					About Us
-				</h3>
-    			<div class="row wow bounceInUp">
-    				<div class="col-md-6">
-    					<img src="https://videohive.img.customer.envatousercontent.com/files/176510983/Worker%20in%20Uniform%20on%20Warehouse%20Checking%20Cargo%20and%20Writing%20Something%20on%20Paper%20590.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=393f3465002e2d999ebafbf3c3e1616c" class="img-fluid">
+    	<!-- banner -->
+    	<section class="banner half-banner">
+    		<div class="banner-container">
+    			<div class="left-block">
+    				<div class="social-icon wow bounceInDown">
+    					<ul>
+							<li><a href=""><i class="fab fa-facebook"></i></a></li>
+							<li><a href=""><i class="fab fa-instagram"></i></a></li>
+							<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+							<li><a href=""><i class="fab fa-twitter"></i></a></li>
+						</ul>
     				</div>
-    				<div class="col-md-6">
-    					<div class="text">
-	    					<div class="line-2 text-justify">
-		    					<p>
-		    						<i>
-				    					In 2014, a partnership was formed in Jakarta to provide logistic services in Indonesia. Haulage container trucks in Tanjung Priok Port became the first service. The hard efforts of the founders gained momentum to expand the business. Slow but sure, company has many opportunities to provide more comprehensive logistics services to satisfy the complex ever increasing needs of our development country, Indonesia. The company was poised to become logistics company as freight forwarder and
-										custom services.
-		    						</i>
-		    					</p>
-		    					<p>
-		    						<i>
-		    							Company now offers a comprehensive logistics inland and sea freight door-to-door service for all industries who have need of logistics services.
-		    						</i>
-		    					</p>
-	    					</div>
-	    					<a href="#" class="bold blue">EXPLORE MORE &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+    				<div class="image-container relative">
+    					<img src="assets/images/banner/banner-3.png" class="img-fluid">
+    					<div class="caption text absolute wow fadeInLeft">
+    						<h1 class="yellow">
+    							Our Services
+    						</h1>
+    						<div class="tagline white">
+    							TBP will use management of logistics, on-time,
+								accurate deliveries from destination to destination 
+								in Indonesia area, and partnerships with all parties to
+								achieve its goals.
+							</div>
     					</div>
+    				</div>
+    			</div>
+    			<div class="right-block wow fadeInRight">
+    				<div class="blocker"></div>
+    				<div class="content-navigate">
+    					<div class="post-links-section">
+                            <ul class="post-links-block">
+                                <li class="active"><a href="#">Sea & Inland Transportation</a>
+                                    <div class="link-line"></div>
+                                </li>
+                            </ul>
+                            <ul class="post-links-block">
+                                <li><a href="#">Cargo Handling</a>
+                                    <div class="link-line"></div>
+                                </li>
+                            </ul>
+                            <ul class="post-links-block">
+                                <li><a href="#">Storage & Supply Chain</a>
+                                    <div class="link-line"></div>
+                                </li>
+                            </ul>
+                            <ul class="post-links-block">
+                                <li><a href="#">Customs Services</a>
+                                    <div class="link-line"></div>
+                                </li>
+                            </ul>
+                            <ul class="post-links-block">
+                                <li><a href="#">Logistic Information System</a>
+                                    <div class="link-line"></div>
+                                </li>
+                            </ul>
+                        </div>
     				</div>
     			</div>
     		</div>
     	</section>
+    	
+    	<!-- end banner section -->
 
-    	<section class="home-services content-padding">
-    		<div class="home-services-left-block wow fadeInLeft">
-    			<div class="text">
-    				<span class="yellow bold">Services</span>
-    				<h3>Cargo Handling</h3>
-    				<br/>
-					<div class="line-2 text-justify">
-						<p>
-							Our extensive portfolio of Ocean Services covers all aspects 
-							related to sea transportation and vessels. Through our 
-							different companies, we are able to meet our clients' 
-							diverse shipping needs in a manner that is  flexible and 
-							designed to maximize efficiency. 
-						</p>
-					</div>
-					<a href="#" class="bold styled-read">READ MORE &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+    	<section class="service-section content-padding">
+    		<nav class="wow fadeInUp">
+				<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+					<a class="nav-item nav-link active" id="web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="web" aria-selected="true">Sea & Inland Transportation</a>
+					<a class="nav-item nav-link" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="false">Cargo Handling</a>
+					<a class="nav-item nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab" aria-controls="design" aria-selected="false">Storage & Supply Chain</a>
+					<a class="nav-item nav-link" id="preset-pack-tab" data-toggle="tab" href="#preset-pack" role="tab" aria-controls="preset-pack" aria-selected="false">Customs Services</a>
+					<a class="nav-item nav-link" id="preset-pack-tab" data-toggle="tab" href="#preset-pack" role="tab" aria-controls="preset-pack" aria-selected="false">Logistic Information System</a>
 				</div>
-    		</div>
-    		<div class="home-services-right-block video-section wow fadeInRight">
-    			<div class="video-nav-block services-nav-links">
-                    <ul>
-                        <li class="active">
-                            <a href="shipping-services.html#cargo" target="_self">
-                                <div class="nav-link">Cargo Handling</div>
-                                <div class="nav-link-line"></div>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="logistics-services.html#logistic-system" target="_self">
-                                <div class="nav-link">Logistic Information System</div>
-                                <div class="nav-link-line"></div>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="logistics-services.html#storage" target="_self">
-                                <div class="nav-link">Storage & Supply Chain</div>
-                                <div class="nav-link-line"></div>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="logistics-services.html#transport" target="_self">
-                                <div class="nav-link">Sea & Inland Transportation</div>
-                                <div class="nav-link-line"></div>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="logistics-services.html#custom-services" target="_self">
-                                <div class="nav-link">Customs Services</div>
-                                <div class="nav-link-line"></div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-    			<div class="home-services-video-block">
-	    			<div class="video-btn-block video-control-btn">
-					    <div class="video-play-btn">
-					        <div class="play-icon verticalB" style="margin-left: 5px;">
-					        	<i class="fas fa-play" id="video-trig"></i>
-					        </div>
-					    </div>
-					    <div class="video-play-text">PLAY</div>
-					</div>
-	    			<video class="home-services-video" id="shipping"><source src="assets/videos/shiping.mp4" type="video/mp4">Shipping Services Video</video>
-    			</div>
-    		</div>
-    	</section>
+			</nav>
 
+    		<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="web" role="tabpanel" aria-labelledby="web-tab">
+					<div class="service-block">
+		    			<div class="service-left-block" style="background: url('assets/images/service.png')">
+		    				<div class="caption text wow fadeInLeft">
+		    					<h3 class="yellow">Overview</h3>
+		    					<p>
+		    						<span class="yellow">PT TRANS BINTANG PRATAMA (TBP)</span> is a logistics service provider company who serve logistics business in Indonesia, supported by the most versatile and modern transport fleet and provides a range of heavy and specialized services that reflects the demands of a growing economy. Transport is an essential part of TBP business reaching to every part of its operations. <span class="yellow">Export</span> and <span class="yellow">Import</span>, <span class="yellow">inland</span> and <span class="yellow">sea freight</span>, <span class="yellow">customs clearance</span> and <span class="yellow">warehousing</span> all need transport.
+		    					</p>
+		    					<p>
+		    						TBP will use management of logistics, on-time, accurate deliveries from destination to destination in Indonesia area, and partnerships with all parties to achieve its goals. In the future, TBP will develop a reputation for its on-time and accurate services as well as sophisticated web and software functionality, allowing clients to align their business with TBP’s services.
+		    					</p>
+		    				</div>
+		    			</div>
+		    			<div class="service-right-block wow fadeInRight">
+		    				<div class="accordion" id="accordion">
+							  <div class="card">
+							    <div class="card-header panel-heading" id="headingOne">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							          PROJECT CARGO
+							        </button>
+							      </h5>
+							      <div class="accor-icon">
+							      	<i class="fas fa-chevron-down"></i>
+							      </div>
+							    </div>
 
-    	<section class="home-certificate content-padding">
-    		<div class="container-fluid">
-    			<div class="row">
-    				<div class="col-md-6">
-		    			<h3 class="lined-title wow bounceInUp">
-							Certificate
-						</h3>
-    				</div>
-    				<div class="col-md-6 text text-right">
-    					<a href="our-work.php" class="grey">Show All</a>
-    				</div>
-    			</div>
-    			<div class="row wow bounceInUp" style="display: inherit;">
-    				<div class="slick">
-    					<div class="col-md-4">
-    						<div class="box-slide">
-    							<div class="img-wrapper">
-    								<img src="assets/images/cert/1.png" alt="">
-    								<div class="caption">
-    									<a href="assets/images/cert/1.png" class="pop-image"><i class="far fa-images"></i></a>
-    								</div>
-    							</div>
-    							<div class="text-wrapper">
-    								<div class="text">
-    									<h5>QUALITY 
-											MANAGEMENT SYSTEM</h5>
-    								</div>
-									<button class="button primary-button-o medium half-radius text-blue"><i class="far fa-eye"></i> &nbsp;PREVIEW</button>
-    								<div class="category"></div>
-    							</div>
-    						</div>
-    					</div>
-    					<div class="col-md-4">
-    						<div class="box-slide">
-    							<div class="img-wrapper">
-    								<img src="assets/images/cert/2.png" alt="">
-    								<div class="caption">
-    									<a href="assets/images/cert/2.png" class="pop-image"><i class="far fa-images"></i></a>
-    								</div>
-    							</div>
-    							<div class="text-wrapper">
-    								<div class="text">
-    									<h5>QUALITY 
-											MANAGEMENT SYSTEM</h5>
-    								</div>
-									<button class="button primary-button-o medium half-radius text-blue"><i class="far fa-eye"></i> &nbsp;PREVIEW</button>
-    								<div class="category"></div>
-    							</div>
-    						</div>
-    					</div>
-    					<div class="col-md-4">
-    						<div class="box-slide">
-    							<div class="img-wrapper">
-    								<img src="assets/images/cert/3.png" alt="">
-    								<div class="caption">
-    									<a href="assets/images/cert/3.png" class="pop-image"><i class="far fa-images"></i></a>
-    								</div>
-    							</div>
-    							<div class="text-wrapper">
-    								<div class="text">
-    									<h5>QUALITY 
-											MANAGEMENT SYSTEM</h5>
-    								</div>
-									<button class="button primary-button-o medium half-radius text-blue"><i class="far fa-eye"></i> &nbsp;PREVIEW</button>
-    								<div class="category"></div>
-    							</div>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</section>
-
-    	<section class="home-client content-padding">
-    		<div class="container-fluid">
-    			<h3 class="lined-title wow bounceInUp">
-					Our Client
-				</h3>
-    			<div class="row wow bounceInUp" style="display: inherit;">
-    				<div class="slick-indicator">
-						<div class="client-logo">
-							<div class="item">
-								<img src="assets/images/client/1.png" alt="">
+							    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							      <div class="card-body text">
+							      	<div class="line-2">
+							      		<img src="assets/images/service-content.png">
+								      	<p>
+								      		Managing heavy lift or project cargo requires special expertise, special skill and very special equipment. We have built a formidable reputation in Project Cargo Logistics and heavy lift shipments with our dedicated operations team who have a thorough understanding of handling cargo’s with ports, customs and transports agencies. We offer innovative Project Cargo Handling solutions as well as technical engineering services to manage the project completely from start to finish, ensuring timely delivery of your valuable goods.
+								      	</p>
+								      	<p>
+								      		More info at <br/>
+								      		<a href="#" class="dark-blue xbold">http://www.transprojectcargo.com/</a>	
+								      	</p>
+							      	</div>
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header panel-heading" id="headingTwo">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							          INLAND TRANSPORTATION
+							        </button>
+							      </h5>
+							      <div class="accor-icon">
+							      	<i class="fas fa-chevron-down"></i>
+							      </div>
+							    </div>
+							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							      <div class="card-body">
+							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							      </div>
+							    </div>
+							  </div>
+							  <div class="card">
+							    <div class="card-header panel-heading" id="headingThree">
+							      <h5 class="mb-0">
+							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							          SEA TRANSPORTATION
+							        </button>
+							      </h5>
+							      <div class="accor-icon">
+							      	<i class="fas fa-chevron-down"></i>
+							      </div>
+							    </div>
+							    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+							      <div class="card-body">
+							        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							      </div>
+							    </div>
+							  </div>
 							</div>
-						</div>
-						<div class="client-logo">
-							<div class="item">
-								<img src="assets/images/client/2.png" alt="">
-							</div>
-						</div>
-						<div class="client-logo">
-							<div class="item">
-								<img src="assets/images/client/3.png" alt="">
-							</div>
-						</div>
-						<div class="client-logo">
-							<div class="item">
-								<img src="assets/images/client/4.png" alt="">
-							</div>
-						</div>
-						<div class="client-logo">
-							<div class="item">
-								<img src="assets/images/client/1.png" alt="">
-							</div>
-						</div>
-						<div class="client-logo">
-							<div class="item">
-								<img src="assets/images/client/2.png" alt="">
-							</div>
-						</div>
-						<div class="client-logo">
-							<div class="item">
-								<img src="assets/images/client/3.png" alt="">
-							</div>
-						</div>
-						<div class="client-logo">
-							<div class="item">
-								<img src="assets/images/client/4.png" alt="">
-							</div>
-						</div>
-					</div>
-    			</div>
-    		</div>
+		    			</div>
+		    		</div>					
+				</div>
+				<div class="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
+						
+				</div>
+				<div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+							    			
+				</div>
+				<div class="tab-pane fade" id="preset-pack" role="tabpanel" aria-labelledby="preset-pack-tab">
+						
+				</div>
+			</div>
     	</section>
 
     	<section class="contact-section content-padding" style="background-image: url('assets/images/cargo.png')">

@@ -1,0 +1,237 @@
+.latest-news{
+	.slick-initialized .slick-slide{
+		outline: none;
+	}
+	.box-slide{
+	  background: $color-white;
+	  box-shadow: 0 2px 3px #02020275;
+	  visibility: visible;
+	  transition: 300ms all ease-in;
+	}
+	.box-slide .img-wrapper{
+	  position: relative;
+	  height: 250px;
+	}
+	.box-slide .img-wrapper img{
+	  width: 100%;
+	  height: 100%;
+	  object-fit: cover;
+	  object-position: top;
+	}
+
+	.box-slide .img-wrapper .caption{
+	  position: absolute;
+	  visibility: hidden;
+	  top: 35%;
+	  right: 40%;
+	}
+
+	.box-slide .img-wrapper .caption a{
+	  color: #fff;
+	  font-size: 3rem;
+	  outline: none;
+	}
+
+	.box-slide .img-wrapper:hover .caption{
+	  animation-name: fadeInUp;
+	  animation-duration: 1s;
+	  visibility: visible;
+	}
+	.box-slide .img-wrapper:before {
+	    content: '';
+	    display: block;
+	    width: 100%;
+	    height: 100%;
+	    background: #3333335e;
+	    position: absolute;
+	    top: 0;
+	}
+
+	.box-slide .text-wrapper{
+	  position: relative;
+	  padding: 15px;
+	  min-height: 200px;
+	  button{
+	  	font-weight: bold;
+	  }
+	}
+	.box-slide .text-wrapper .text{
+	  	min-height: 106px;
+	   	h5{
+	   		display: -webkit-box;
+	  		-webkit-line-clamp: 3;
+	  		-webkit-box-orient: vertical;  
+	  		overflow: hidden;
+	   	}
+	}
+
+
+	.box-slide .category{
+	  position: absolute;
+	  bottom: 0;
+	  right: 0;
+	  color: black;
+	  font-size: 14px;
+	  font-weight: 600;
+	  text-transform: uppercase;
+	  width: 0px;
+	  height: 0px;
+	  border-top: 58px solid transparent;
+	  border-bottom: 0px solid transparent;
+	  border-right: 50px solid;
+	  border-right-color: $color-yellow;
+	}
+
+	.box-slide .btn{
+	  width: 130px;
+	  padding: 2px;
+	  margin-top: 15px;
+	  font-size: 15px;
+	}
+}
+.news-content{
+	.share-block{
+		ul{
+			padding: 0;
+		    list-style: none;
+		    fit-content: contain;
+		    li{
+		    	display: inline-block;
+		    	padding-right: 1em;
+		    	a{
+		    		color: $color-blue;
+		    		font-size: 20px;
+		    	}
+		    }
+		}
+	}
+	.detail-content{
+		font-size: 16px;
+		img{
+			max-width: 70%;
+		    margin: 0 auto;
+		    display: block;
+		    margin-bottom: 15px;
+		}
+	}
+	.post-item{
+		margin-bottom: 2em;
+		border-bottom: 1px solid #ddd;
+	    padding-bottom: 2em;
+		.title{
+			font-weight: 500;
+			color: $color-black;
+			margin-bottom: 1em;
+		}
+		.image-container{
+			width: 100%;
+			height: 75vh;
+			position: relative;
+			&.image-container::before{
+				content: '';
+				display: block;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				background: #071b2d91;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: top;
+			}
+			.tag{
+				position: absolute;
+				bottom: 0;
+				.top{
+					background: $color-d-blue;
+					padding: 5px 15px;
+					color: $color-white;
+				}
+				.bottom{
+					background: $color-yellow;
+					padding: 5px 15px;
+					font-style: italic;
+				}
+			}
+			.action{
+				position: absolute;
+				top: 1rem;
+				right: 2rem;
+				a{
+					color: #ffffffad;
+					font-size: 2rem;
+				}
+				a:hover{
+					color: $color-yellow;	
+				}
+			}
+		}
+		.post-excerpt{
+			padding: 2em 0;
+			font-size: 17px;
+			text-align: justify;
+		}
+		&.post-item:last-child{
+			border: 0;
+		}
+	}
+	.sidebar{
+		.widget{
+			margin-bottom: 2rem;
+			&.post-list-small{
+				.flex-item-post{
+					margin: 2rem 0;
+					display: flex;
+					justify-content: space-between;
+					.left-block{
+						width: calc(40% - 10px);
+						flex: 0 1 auto;
+						.image-container{
+							width: 100%;
+							height: 15vh;
+							img{
+								width: 100%;
+								height: 100%;
+								object-fit: cover;
+								object-position: top;
+							}
+						}
+					}
+					.right-block{
+						width: calc(60% - 10px);
+						flex: 0 1 auto;
+						.text{
+							h5{
+								font-size: 16px;
+							}
+						}
+					}
+				}
+			}
+			&.list-chevron{
+				ul{
+					list-style: none;
+					padding: 1em 0;
+					li{
+						margin-bottom: 1em;
+						>i{
+							padding-right: 1em;
+						}
+						a{
+							color: $color-d-blue;
+							text-decoration: none;
+							font-weight: 600;
+							span{
+								color: $color-grey;
+								font-size: 11px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

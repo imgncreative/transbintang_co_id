@@ -1,0 +1,28 @@
+.service-section{
+	nav{
+		padding: 0 2em;
+	}
+	.service-block{
+		display: flex;
+	    justify-content: space-between;
+	    width: 100%;
+	    height: 100%;
+		.service-left-block{
+			width: calc(30% - 15px);
+		    height: 100%;
+		    padding: 15px 15px 15px 25px;
+			background-position: top !important;
+		    background-repeat: no-repeat !important;
+		    background-size: 100% !important;
+		   .caption{
+		   	    padding: 15px;
+		   	    background: #042038bf;
+		   	    color: $color-white;
+		   }
+		}
+		.service-right-block{
+			width: calc(70% - 15px);
+		    height: 100%;
+		}
+	}	
+}

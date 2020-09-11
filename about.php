@@ -46,16 +46,16 @@
 						        <a class="nav-link" href="index.php">HOME</a>
 						      </li>
 						      <li class="nav-item active">
-						        <a class="nav-link" href="#">ABOUT US</a>
+						        <a class="nav-link" href="about.php">ABOUT US</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="#">OUR SERVICES</a>
+						        <a class="nav-link" href="service.php">OUR SERVICES</a>
 						      </li>
 						      <li class="nav-item">
-					    	    <a class="nav-link" href="#">EXPERIENCE</a>
+					    	    <a class="nav-link" href="experience.php">EXPERIENCE</a>
 					    	  </li>
 					    	  <li class="nav-item">
-					    	    <a class="nav-link" href="#">NEWS</a>
+					    	    <a class="nav-link" href="news.php">NEWS</a>
 					    	  </li>
 						    </ul>
 						  </div>
@@ -84,13 +84,13 @@
 						        <a class="nav-link" href="about.php">ABOUT US</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="#">OUR SERVICES</a>
+						        <a class="nav-link" href="service.php">OUR SERVICES</a>
 						      </li>
 						      <li class="nav-item">
-					    	    <a class="nav-link" href="#">EXPERIENCE</a>
+					    	    <a class="nav-link" href="experience.php">EXPERIENCE</a>
 					    	  </li>
 					    	  <li class="nav-item">
-					    	    <a class="nav-link" href="#">NEWS</a>
+					    	    <a class="nav-link" href="news.php">NEWS</a>
 					    	  </li>
 					    	</ul>
 				    	</div>
