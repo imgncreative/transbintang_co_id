@@ -1,0 +1,21 @@
+.gallery{
+	.modal-dialog{
+		max-width: 55%;
+		filter: drop-shadow(2px 6px 6px #00032423);
+		.modal-content{
+			background: no-repeat;
+		    border: 0;
+		    max-width: max-content;
+		    width: inherit;
+		    margin: 0 auto;
+		    .modal-header{
+		    	border: 0;
+		    	padding: 0 1rem;
+		    	.close{
+		    		color: #fff;
+				    text-shadow: 0 1px 0 $color-yellow;
+		    	}
+		    }
+		}
+	}
+}

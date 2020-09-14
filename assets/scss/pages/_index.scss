@@ -9,6 +9,14 @@
 	    color: $color-white;
 	    position: relative;
 	    flex: 0 1 auto;
+	    .text{
+	    	.line-2{
+	    		display: -webkit-box;
+		  		-webkit-line-clamp: 4;
+		  		-webkit-box-orient: vertical;  
+		  		overflow: hidden;
+	    	}
+	    }
 	    .styled-read{
 	    	background: $color-d-blue;
 		    position: relative;
@@ -94,7 +102,7 @@
 	    width: 100%;
 	    max-width: 100%;
 	    height: auto;
-	    transform: scaleX(-1);
+	    //transform: scaleX(-1);
 	}
 	.home-services-video-block {
 	    display: block;

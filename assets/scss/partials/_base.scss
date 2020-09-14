@@ -16,8 +16,17 @@ a, button{
   outline: none !important;
 }
 
+.splide__slide img {
+	width : 100%;
+	height: auto;
+}
+
 .container-fluid{
 	width: 95%;
+}
+
+.hide{
+	display: none !important;
 }
 
 /* bg block */

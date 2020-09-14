@@ -8,6 +8,7 @@
 			flex: 0 1 auto;
 			margin: 0 auto;
 			margin-bottom: 20px;
+			position: relative;
 			.image-container{
 				width: 100%;
 				height: 70vh;
@@ -55,6 +56,7 @@
 						    border-radius: 100%;
 						    padding: 10px;
 						    position: relative;
+						    cursor: pointer;
 						    a{
 						    	color: $color-white;
 						    	text-decoration: none;
@@ -66,5 +68,25 @@
 				}
 			}
 		}
+	}
+}
+
+.gallery{
+	max-width: 100%;
+    .splide--nav>.splide__track>.splide__list>.splide__slide.is-active {
+	    border-color: $color-yellow;
+	}
+	div#primary-slider {
+	    height: 85%;
+	}
+	div#primary-slider-track {
+	    height: 85%;
+	}
+	ul#primary-slider-list {
+	    width: 100%;
+	    height: 100%;
+	}
+	.splide--fade>.splide__track>.splide__list>.splide__slide.is-active{
+		height: 100%;
 	}
 }
